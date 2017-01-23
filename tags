@@ -294,6 +294,7 @@ HEXDIGITS	lib/python3.6/sre_parse.py	/^HEXDIGITS = frozenset("0123456789abcdefAB
 HMAC	lib/python3.6/hmac.py	/^class HMAC:$/;"	kind:class	line:19
 Hashable	lib/python3.6/_collections_abc.py	/^class Hashable(metaclass=ABCMeta):$/;"	kind:class	line:84
 HeaderError	lib/python3.6/tarfile.py	/^class HeaderError(TarError):$/;"	kind:class	line:285
+HelloWorld.py	HelloWorld.py	1;"	kind:file	line:1
 Hexnumber	lib/python3.6/tokenize.py	/^Hexnumber = r'0[xX](?:_?[0-9a-fA-F])+'$/;"	kind:variable	line:123
 I	lib/python3.6/re.py	/^    I = IGNORECASE$/;"	kind:variable	line:151
 IGNORECASE	lib/python3.6/re.py	/^    IGNORECASE = sre_compile.SRE_FLAG_IGNORECASE # ignore case$/;"	kind:variable	line:144
@@ -563,6 +564,7 @@ ItemsView	lib/python3.6/_collections_abc.py	/^class ItemsView(MappingView, Set):
 Iterable	lib/python3.6/_collections_abc.py	/^class Iterable(metaclass=ABCMeta):$/;"	kind:class	line:243
 Iterator	lib/python3.6/_collections_abc.py	/^class Iterator(Iterable):$/;"	kind:class	line:259
 Just	lib/python3.6/importlib/__init__.py	/^import _imp  # Just the builtin component, NOT the full Python module$/;"	kind:namespace	line:12
+Jython	bin/rst2html5.py	/^    import locale # module missing in Jython$/;"	kind:namespace	line:24
 K	lib/python3.6/functools.py	/^    class K(object):$/;"	kind:class	line:213
 KeyedRef	lib/python3.6/weakref.py	/^class KeyedRef(ref):$/;"	kind:class	line:293
 KeysView	lib/python3.6/_collections_abc.py	/^class KeysView(MappingView, Set):$/;"	kind:class	line:708
@@ -615,6 +617,7 @@ MutableMapping	lib/python3.6/os.py	/^from _collections_abc import MutableMapping
 MutableSequence	lib/python3.6/_collections_abc.py	/^class MutableSequence(Sequence):$/;"	kind:class	line:941
 MutableSet	lib/python3.6/_collections_abc.py	/^class MutableSet(Set):$/;"	kind:class	line:556
 NAME	lib/python3.6/token.py	/^NAME = 1$/;"	kind:variable	line:14
+NAMESPACES	bin/rst2odt_prepstyles.py	/^NAMESPACES = {$/;"	kind:variable	line:22
 NEWLINE	lib/python3.6/token.py	/^NEWLINE = 4$/;"	kind:variable	line:17
 NL	lib/python3.6/tokenize.py	/^NL = N_TOKENS + 1$/;"	kind:variable	line:47
 NOT	lib/python3.6/importlib/__init__.py	/^import _imp  # Just the builtin component, NOT the full Python module$/;"	kind:namespace	line:12
@@ -688,6 +691,7 @@ Random	lib/python3.6/random.py	/^class Random(_random.Random):$/;"	kind:class	li
 RawIOBase	lib/python3.6/io.py	/^class RawIOBase(_io._RawIOBase, IOBase):$/;"	kind:class	line:75
 ReadError	lib/python3.6/shutil.py	/^class ReadError(OSError):$/;"	kind:class	line:62
 ReadError	lib/python3.6/tarfile.py	/^class ReadError(TarError):$/;"	kind:class	line:276
+Reader	bin/rst2odt.py	/^from docutils.writers.odf_odt import Writer, Reader$/;"	kind:namespace	line:19
 RegexFlag	lib/python3.6/re.py	/^class RegexFlag(enum.IntFlag):$/;"	kind:class	line:142
 RegistryError	lib/python3.6/shutil.py	/^class RegistryError(Exception):$/;"	kind:class	line:65
 Repr	lib/python3.6/reprlib.py	/^class Repr:$/;"	kind:class	line:39
@@ -1116,6 +1120,7 @@ WeakValueDictionary	lib/python3.6/weakref.py	/^class WeakValueDictionary(collect
 Whitespace	lib/python3.6/tokenize.py	/^Whitespace = r'[ \\f\\t]*'$/;"	kind:variable	line:118
 WindowsRegistryFinder	lib/python3.6/importlib/_bootstrap_external.py	/^class WindowsRegistryFinder:$/;"	kind:class	line:592
 WindowsRegistryFinder	lib/python3.6/importlib/machinery.py	/^from ._bootstrap_external import WindowsRegistryFinder$/;"	kind:namespace	line:11
+Writer	bin/rst2odt.py	/^from docutils.writers.odf_odt import Writer, Reader$/;"	kind:namespace	line:19
 X	lib/python3.6/re.py	/^    X = VERBOSE$/;"	kind:variable	line:156
 XGLTYPE	lib/python3.6/tarfile.py	/^XGLTYPE = b"g"                  # POSIX.1-2001 global header$/;"	kind:variable	line:100
 XHDTYPE	lib/python3.6/tarfile.py	/^XHDTYPE = b"x"                  # POSIX.1-2001 extended header$/;"	kind:variable	line:99
@@ -2340,6 +2345,7 @@ _wrap	lib/python3.6/importlib/_bootstrap.py	/^def _wrap(new, old):$/;"	kind:func
 _wrap	lib/python3.6/importlib/_bootstrap_external.py	/^        def _wrap(new, old):$/;"	kind:function	line:404
 _wrap_close	lib/python3.6/os.py	/^class _wrap_close:$/;"	kind:class	line:988
 _write_atomic	lib/python3.6/importlib/_bootstrap_external.py	/^def _write_atomic(path, data, mode=0o666):$/;"	kind:function	line:106
+a	HelloWorld.py	/^a = np.array([1,2,3,4])$/;"	kind:variable	line:8
 a	lib/python3.6/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
 a85decode	lib/python3.6/base64.py	/^def a85decode(b, *, foldspaces=False, adobe=False, ignorechars=b' \\t\\n\\r\\v'):$/;"	kind:function	line:351
 a85encode	lib/python3.6/base64.py	/^def a85encode(b, *, foldspaces=False, wrapcol=0, pad=False, adobe=False):$/;"	kind:function	line:310
@@ -2404,6 +2410,7 @@ append	lib/python3.6/_collections_abc.py	/^    def append(self, value):$/;"	kind
 append	lib/python3.6/collections/__init__.py	/^    def append(self, item): self.data.append(item)$/;"	kind:member	line:1078
 append	lib/python3.6/importlib/_bootstrap_external.py	/^    def append(self, item):$/;"	kind:member	line:1008
 append	lib/python3.6/sre_parse.py	/^    def append(self, code):$/;"	kind:member	line:171
+argparse	bin/jp.py	/^import argparse$/;"	kind:namespace	line:5
 argparse	lib/python3.6/tarfile.py	/^    import argparse$/;"	kind:namespace	line:2450
 argparse	lib/python3.6/tokenize.py	/^    import argparse$/;"	kind:namespace	line:733
 ascii.py	lib/python3.6/encodings/ascii.py	1;"	kind:file	line:1
@@ -2424,6 +2431,7 @@ automatically	lib/python3.6/importlib/util.py	/^        warnings.warn('The impor
 automatically	lib/python3.6/importlib/util.py	/^    warnings.warn('The import system now takes care of this automatically.',$/;"	kind:namespace	line:186
 avoid	lib/python3.6/importlib/_bootstrap_external.py	/^    import tokenize  # To avoid bootstrap issues.$/;"	kind:namespace	line:512
 avoid	lib/python3.6/weakref.py	/^import collections  # Import after _weakref to avoid circular import.$/;"	kind:namespace	line:23
+b	HelloWorld.py	/^b = np.array([[ 1, 2, 3, 9], $/;"	kind:variable	line:11
 b16decode	lib/python3.6/base64.py	/^def b16decode(s, casefold=False):$/;"	kind:function	line:260
 b16encode	lib/python3.6/base64.py	/^def b16encode(s):$/;"	kind:function	line:254
 b32decode	lib/python3.6/base64.py	/^def b32decode(s, casefold=False, map01=None):$/;"	kind:function	line:180
@@ -2916,6 +2924,7 @@ curdir	lib/python3.6/ntpath.py	/^curdir = '.'$/;"	kind:variable	line:24
 curdir	lib/python3.6/os.py	/^from os.path import (curdir, pardir, sep, pathsep, defpath, extsep, altsep,$/;"	kind:namespace	line:92
 curdir	lib/python3.6/posixpath.py	/^curdir = '.'$/;"	kind:variable	line:30
 currency	lib/python3.6/locale.py	/^def currency(val, symbol=True, grouping=False, international=False):$/;"	kind:function	line:254
+currency_converter	script.py	/^def currency_converter(rate, euros):$/;"	kind:function	line:2
 data_encoding	lib/python3.6/codecs.py	/^    data_encoding = 'unknown'$/;"	kind:variable	line:769
 debug	lib/python3.6/tarfile.py	/^    debug = 0                   # May be set from 0 (no msgs) to 3 (all msgs)$/;"	kind:variable	line:1382
 decode	lib/python3.6/base64.py	/^def decode(input, output):$/;"	kind:function	line:506
@@ -3247,6 +3256,14 @@ decorating_function	lib/python3.6/reprlib.py	/^    def decorating_function(user_
 deepcopy	lib/python3.6/copy.py	/^def deepcopy(x, memo=None, _nil=[]):$/;"	kind:function	line:132
 deepcopy	lib/python3.6/weakref.py	/^        from copy import deepcopy$/;"	kind:namespace	line:171
 deepcopy	lib/python3.6/weakref.py	/^        from copy import deepcopy$/;"	kind:namespace	line:391
+default_description	bin/rst2html.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+default_description	bin/rst2html5.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:29
+default_description	bin/rst2man.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:21
+default_description	bin/rst2odt.py	/^from docutils.core import publish_cmdline_to_binary, default_description$/;"	kind:namespace	line:18
+default_description	bin/rst2pseudoxml.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+default_description	bin/rst2s5.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:18
+default_description	bin/rst2xml.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+default_description	bin/rstpep2html.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:18
 defaultaction	lib/python3.6/warnings.py	/^    defaultaction = "default"$/;"	kind:variable	line:494
 defaultaction	lib/python3.6/warnings.py	/^    defaultaction = _defaultaction$/;"	kind:variable	line:489
 defaultdict	lib/python3.6/collections/__init__.py	/^    from _collections import defaultdict$/;"	kind:namespace	line:42
@@ -3258,6 +3275,18 @@ delitem	lib/python3.6/operator.py	/^def delitem(a, b):$/;"	kind:function	line:16
 delocalize	lib/python3.6/locale.py	/^def delocalize(string):$/;"	kind:function	line:303
 deque	lib/python3.6/collections/__init__.py	/^    from _collections import deque$/;"	kind:namespace	line:35
 dereference	lib/python3.6/tarfile.py	/^    dereference = False         # If true, add content of linked file to the$/;"	kind:variable	line:1384
+description	bin/rst2html.py	/^description = ('Generates (X)HTML documents from standalone reStructuredText '$/;"	kind:variable	line:20
+description	bin/rst2html5.py	/^description = (u'Generates HTML 5 documents from standalone '$/;"	kind:variable	line:31
+description	bin/rst2latex.py	/^description = ('Generates LaTeX documents from standalone reStructuredText '$/;"	kind:variable	line:19
+description	bin/rst2man.py	/^description = ("Generates plain unix manual documents.  " + default_description)$/;"	kind:variable	line:24
+description	bin/rst2odt.py	/^    description=description)$/;"	kind:variable	line:29
+description	bin/rst2odt.py	/^description = ('Generates OpenDocument\/OpenOffice\/ODF documents from '$/;"	kind:variable	line:22
+description	bin/rst2pseudoxml.py	/^description = ('Generates pseudo-XML from standalone reStructuredText '$/;"	kind:variable	line:20
+description	bin/rst2s5.py	/^description = ('Generates S5 (X)HTML slideshow documents from standalone '$/;"	kind:variable	line:21
+description	bin/rst2xetex.py	/^description = ('Generates LaTeX documents from standalone reStructuredText '$/;"	kind:variable	line:19
+description	bin/rst2xml.py	/^description = ('Generates Docutils-native XML from standalone '$/;"	kind:variable	line:20
+description	bin/rstpep2html.py	/^                description=description)$/;"	kind:variable	line:25
+description	bin/rstpep2html.py	/^description = ('Generates (X)HTML from reStructuredText-format PEP files.  '$/;"	kind:variable	line:21
 detach	lib/python3.6/weakref.py	/^    def detach(self):$/;"	kind:member	line:521
 detect_encoding	lib/python3.6/tokenize.py	/^def detect_encoding(readline):$/;"	kind:function	line:355
 devnull	lib/python3.6/ntpath.py	/^devnull = 'nul'$/;"	kind:variable	line:31
@@ -3633,11 +3662,13 @@ error	lib/python3.6/tokenize.py	/^    def error(message, filename=None, location
 errorlevel	lib/python3.6/tarfile.py	/^    errorlevel = 1              # If 0, fatal errors only appear in debug$/;"	kind:variable	line:1390
 errors	lib/python3.6/tarfile.py	/^    errors = None               # Error handler for unicode conversion.$/;"	kind:variable	line:1398
 escape	lib/python3.6/re.py	/^def escape(pattern):$/;"	kind:function	line:249
+etree	bin/rst2odt_prepstyles.py	/^from lxml import etree$/;"	kind:namespace	line:15
 euc_jis_2004.py	lib/python3.6/encodings/euc_jis_2004.py	1;"	kind:file	line:1
 euc_jisx0213.py	lib/python3.6/encodings/euc_jisx0213.py	1;"	kind:file	line:1
 euc_jp.py	lib/python3.6/encodings/euc_jp.py	1;"	kind:file	line:1
 euc_kr.py	lib/python3.6/encodings/euc_kr.py	1;"	kind:file	line:1
 exact_type	lib/python3.6/tokenize.py	/^    def exact_type(self):$/;"	kind:member	line:106
+exceptions	bin/jp.py	/^from jmespath import exceptions$/;"	kind:namespace	line:9
 exec_module	lib/python3.6/importlib/_bootstrap.py	/^    def exec_module(module):$/;"	kind:member	line:792
 exec_module	lib/python3.6/importlib/_bootstrap.py	/^    def exec_module(self, module):$/;"	kind:member	line:728
 exec_module	lib/python3.6/importlib/_bootstrap_external.py	/^    def exec_module(self, module):$/;"	kind:member	line:1038
@@ -4045,6 +4076,7 @@ import_module	lib/python3.6/importlib/__init__.py	/^def import_module(name, pack
 importlib	lib/python3.6/imp.py	/^        import importlib.machinery$/;"	kind:namespace	line:335
 importlib	lib/python3.6/imp.py	/^import importlib$/;"	kind:namespace	line:24
 imul	lib/python3.6/operator.py	/^def imul(a, b):$/;"	kind:function	line:370
+in	bin/rst2html5.py	/^    import locale # module missing in Jython$/;"	kind:namespace	line:24
 index	lib/python3.6/_collections_abc.py	/^    def index(self, value, start=0, stop=None):$/;"	kind:member	line:899
 index	lib/python3.6/collections/__init__.py	/^    def index(self, item, *args): return self.data.index(item, *args)$/;"	kind:member	line:1085
 index	lib/python3.6/collections/__init__.py	/^    def index(self, sub, start=0, end=_sys.maxsize):$/;"	kind:member	line:1191
@@ -4164,11 +4196,14 @@ itervaluerefs	lib/python3.6/weakref.py	/^    def itervaluerefs(self):$/;"	kind:m
 itn	lib/python3.6/tarfile.py	/^def itn(n, digits=8, format=DEFAULT_FORMAT):$/;"	kind:function	line:190
 itruediv	lib/python3.6/operator.py	/^def itruediv(a, b):$/;"	kind:function	line:400
 ixor	lib/python3.6/operator.py	/^def ixor(a, b):$/;"	kind:function	line:405
+jmespath	bin/jp.py	/^import jmespath$/;"	kind:namespace	line:8
 johab.py	lib/python3.6/encodings/johab.py	1;"	kind:file	line:1
 join	lib/python3.6/collections/__init__.py	/^    def join(self, seq): return self.data.join(seq)$/;"	kind:member	line:1204
 join	lib/python3.6/ntpath.py	/^def join(path, *paths):$/;"	kind:function	line:74
 join	lib/python3.6/posixpath.py	/^def join(a, *p):$/;"	kind:function	line:73
 joinuser	lib/python3.6/site.py	/^    def joinuser(*args):$/;"	kind:function	line:324
+jp.py	bin/jp.py	1;"	kind:file	line:1
+json	bin/jp.py	/^import json$/;"	kind:namespace	line:4
 k	lib/python3.6/locale.py	/^    k = k.replace('_', '')$/;"	kind:variable	line:717
 keyrefs	lib/python3.6/weakref.py	/^    def keyrefs(self):$/;"	kind:member	line:431
 keys	lib/python3.6/_collections_abc.py	/^    def keys(self):$/;"	kind:member	line:672
@@ -4211,6 +4246,16 @@ load_module	lib/python3.6/importlib/abc.py	/^    def load_module(self, fullname)
 load_module	lib/python3.6/importlib/abc.py	/^    load_module = _bootstrap_external._LoaderBasics.load_module$/;"	kind:variable	line:234
 load_package	lib/python3.6/imp.py	/^def load_package(name, path):$/;"	kind:function	line:200
 load_source	lib/python3.6/imp.py	/^def load_source(name, pathname, file=None):$/;"	kind:function	line:166
+locale	bin/rst2html.py	/^    import locale$/;"	kind:namespace	line:12
+locale	bin/rst2html5.py	/^    import locale # module missing in Jython$/;"	kind:namespace	line:24
+locale	bin/rst2latex.py	/^    import locale$/;"	kind:namespace	line:12
+locale	bin/rst2man.py	/^import locale$/;"	kind:namespace	line:15
+locale	bin/rst2odt.py	/^    import locale$/;"	kind:namespace	line:13
+locale	bin/rst2pseudoxml.py	/^    import locale$/;"	kind:namespace	line:12
+locale	bin/rst2s5.py	/^    import locale$/;"	kind:namespace	line:13
+locale	bin/rst2xetex.py	/^    import locale$/;"	kind:namespace	line:12
+locale	bin/rst2xml.py	/^    import locale$/;"	kind:namespace	line:12
+locale	bin/rstpep2html.py	/^    import locale$/;"	kind:namespace	line:13
 locale	lib/python3.6/_bootlocale.py	/^            import locale$/;"	kind:namespace	line:20
 locale	lib/python3.6/site.py	/^        import locale$/;"	kind:namespace	line:532
 locale	lib/python3.6/site.py	/^        import locale, codecs$/;"	kind:namespace	line:515
@@ -4250,6 +4295,8 @@ mac_turkish.py	lib/python3.6/encodings/mac_turkish.py	1;"	kind:file	line:1
 machinery	lib/python3.6/imp.py	/^        import importlib.machinery$/;"	kind:namespace	line:335
 machinery	lib/python3.6/importlib/abc.py	/^from . import machinery$/;"	kind:namespace	line:4
 machinery.py	lib/python3.6/importlib/machinery.py	1;"	kind:file	line:1
+main	bin/jp.py	/^def main():$/;"	kind:function	line:12
+main	bin/rst2odt_prepstyles.py	/^def main():$/;"	kind:function	line:54
 main	lib/python3.6/base64.py	/^def main():$/;"	kind:function	line:563
 main	lib/python3.6/keyword.py	/^def main():$/;"	kind:function	line:55
 main	lib/python3.6/site.py	/^def main():$/;"	kind:function	line:668
@@ -4267,6 +4314,7 @@ makelink	lib/python3.6/tarfile.py	/^    def makelink(self, tarinfo, targetpath):
 makepath	lib/python3.6/site.py	/^def makepath(*paths):$/;"	kind:function	line:92
 maketrans	lib/python3.6/collections/__init__.py	/^    maketrans = str.maketrans$/;"	kind:variable	line:1209
 makeunknown	lib/python3.6/tarfile.py	/^    def makeunknown(self, tarinfo, targetpath):$/;"	kind:member	line:2166
+manpage	bin/rst2man.py	/^from docutils.writers import manpage$/;"	kind:namespace	line:22
 mappingproxy	lib/python3.6/_collections_abc.py	/^mappingproxy = type(type.__dict__)$/;"	kind:variable	line:55
 match	lib/python3.6/re.py	/^def match(pattern, string, flags=0):$/;"	kind:function	line:169
 match	lib/python3.6/sre_parse.py	/^    def match(self, char):$/;"	kind:member	line:248
@@ -4302,11 +4350,14 @@ mbcs_decode	lib/python3.6/encodings/mbcs.py	/^from codecs import mbcs_encode, mb
 mbcs_encode	lib/python3.6/encodings/mbcs.py	/^from codecs import mbcs_encode, mbcs_decode$/;"	kind:namespace	line:12
 merge	lib/python3.6/heapq.py	/^def merge(*iterables, key=None, reverse=False):$/;"	kind:function	line:314
 methodcaller	lib/python3.6/operator.py	/^class methodcaller:$/;"	kind:class	line:296
+missing	bin/rst2html5.py	/^    import locale # module missing in Jython$/;"	kind:namespace	line:24
 mkdtemp	lib/python3.6/tempfile.py	/^def mkdtemp(suffix=None, prefix=None, dir=None):$/;"	kind:function	line:345
+mkstemp	bin/rst2odt_prepstyles.py	/^from tempfile import mkstemp$/;"	kind:namespace	line:18
 mkstemp	lib/python3.6/tempfile.py	/^def mkstemp(suffix=None, prefix=None, dir=None, text=False):$/;"	kind:function	line:305
 mktemp	lib/python3.6/tempfile.py	/^def mktemp(suffix="", prefix=template, dir=None):$/;"	kind:function	line:384
 mod	lib/python3.6/operator.py	/^def mod(a, b):$/;"	kind:function	line:100
 mode	lib/python3.6/tempfile.py	/^    def mode(self):$/;"	kind:member	line:715
+module	bin/rst2html5.py	/^    import locale # module missing in Jython$/;"	kind:namespace	line:24
 module	lib/python3.6/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
 module	lib/python3.6/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
 module	lib/python3.6/encodings/zlib_codec.py	/^import zlib # this codec needs the optional zlib module !$/;"	kind:namespace	line:9
@@ -4362,6 +4413,7 @@ not_compressed	lib/python3.6/tarfile.py	/^            def not_compressed(comptyp
 now	lib/python3.6/importlib/util.py	/^        warnings.warn('The import system now takes care of this automatically.',$/;"	kind:namespace	line:140
 now	lib/python3.6/importlib/util.py	/^        warnings.warn('The import system now takes care of this automatically.',$/;"	kind:namespace	line:159
 now	lib/python3.6/importlib/util.py	/^    warnings.warn('The import system now takes care of this automatically.',$/;"	kind:namespace	line:186
+np	HelloWorld.py	/^import numpy as np$/;"	kind:namespace	line:5
 nsmallest	lib/python3.6/heapq.py	/^def nsmallest(n, iterable, key=None):$/;"	kind:function	line:461
 nt	lib/python3.6/os.py	/^    import nt$/;"	kind:namespace	line:79
 nt	lib/python3.6/shutil.py	/^    import nt$/;"	kind:namespace	line:996
@@ -4397,6 +4449,7 @@ optional	lib/python3.6/encodings/bz2_codec.py	/^import bz2 # this codec needs th
 optional	lib/python3.6/encodings/zlib_codec.py	/^import zlib # this codec needs the optional zlib module !$/;"	kind:namespace	line:9
 or_	lib/python3.6/operator.py	/^def or_(a, b):$/;"	kind:function	line:116
 os	bin/activate_this.py	/^import os$/;"	kind:namespace	line:14
+os	bin/rst2odt_prepstyles.py	/^import os$/;"	kind:namespace	line:20
 os	lib/python3.6/config-3.6m-darwin/python-config.py	/^import os$/;"	kind:namespace	line:7
 os	lib/python3.6/distutils/__init__.py	/^import os$/;"	kind:namespace	line:1
 os	lib/python3.6/fnmatch.py	/^import os$/;"	kind:namespace	line:12
@@ -4410,6 +4463,7 @@ os	lib/python3.6/shutil.py	/^import os$/;"	kind:namespace	line:7
 os	lib/python3.6/site.py	/^import os$/;"	kind:namespace	line:67
 os	lib/python3.6/tarfile.py	/^import os$/;"	kind:namespace	line:43
 os.py	lib/python3.6/os.py	1;"	kind:file	line:1
+output	bin/rst2odt.py	/^output = publish_cmdline_to_binary(reader=reader, writer=writer,$/;"	kind:variable	line:28
 package	lib/python3.6/importlib/_bootstrap.py	/^        raise ValueError('attempted relative import beyond top-level package')$/;"	kind:namespace	line:847
 palmos.py	lib/python3.6/encodings/palmos.py	1;"	kind:file	line:1
 pardir	lib/python3.6/ntpath.py	/^pardir = '..'$/;"	kind:variable	line:25
@@ -4444,6 +4498,7 @@ pbkdf2_hmac	lib/python3.6/hashlib.py	/^    def pbkdf2_hmac(hash_name, password, 
 pbkdf2_hmac	lib/python3.6/hashlib.py	/^    from _hashlib import pbkdf2_hmac$/;"	kind:namespace	line:170
 peek	lib/python3.6/weakref.py	/^    def peek(self):$/;"	kind:member	line:529
 perror	lib/python3.6/tokenize.py	/^    def perror(message):$/;"	kind:function	line:736
+pformat	bin/jp.py	/^from pprint import pformat$/;"	kind:namespace	line:6
 pickle	lib/python3.6/copyreg.py	/^def pickle(ob_type, pickle_function, constructor_ob=None):$/;"	kind:function	line:12
 pickle_complex	lib/python3.6/copyreg.py	/^    def pickle_complex(c):$/;"	kind:function	line:34
 pop	lib/python3.6/_collections_abc.py	/^    def pop(self):$/;"	kind:member	line:586
@@ -4468,10 +4523,21 @@ posixpath	lib/python3.6/fnmatch.py	/^import posixpath$/;"	kind:namespace	line:13
 posixpath.py	lib/python3.6/posixpath.py	1;"	kind:file	line:1
 pow	lib/python3.6/operator.py	/^def pow(a, b):$/;"	kind:function	line:124
 prepare_class	lib/python3.6/types.py	/^def prepare_class(name, bases=(), kwds=None):$/;"	kind:function	line:64
+prepstyle	bin/rst2odt_prepstyles.py	/^def prepstyle(filename):$/;"	kind:function	line:27
 prev_sys_path	bin/activate_this.py	/^prev_sys_path = list(sys.path)$/;"	kind:variable	line:23
 prf	lib/python3.6/hashlib.py	/^        def prf(msg, inner=inner, outer=outer):$/;"	kind:function	line:200
 print_function	lib/python3.6/__future__.py	/^print_function = _Feature((2, 6, 0, "alpha", 2),$/;"	kind:variable	line:126
 ptcp154.py	lib/python3.6/encodings/ptcp154.py	1;"	kind:file	line:1
+publish_cmdline	bin/rst2html.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+publish_cmdline	bin/rst2html5.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:29
+publish_cmdline	bin/rst2latex.py	/^from docutils.core import publish_cmdline$/;"	kind:namespace	line:17
+publish_cmdline	bin/rst2man.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:21
+publish_cmdline	bin/rst2pseudoxml.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+publish_cmdline	bin/rst2s5.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:18
+publish_cmdline	bin/rst2xetex.py	/^from docutils.core import publish_cmdline$/;"	kind:namespace	line:17
+publish_cmdline	bin/rst2xml.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+publish_cmdline	bin/rstpep2html.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:18
+publish_cmdline_to_binary	bin/rst2odt.py	/^from docutils.core import publish_cmdline_to_binary, default_description$/;"	kind:namespace	line:18
 punycode.py	lib/python3.6/encodings/punycode.py	1;"	kind:file	line:1
 punycode_decode	lib/python3.6/encodings/punycode.py	/^def punycode_decode(text, errors):$/;"	kind:function	line:182
 punycode_encode	lib/python3.6/encodings/punycode.py	/^def punycode_encode(text):$/;"	kind:function	line:117
@@ -4523,6 +4589,7 @@ read	lib/python3.6/tarfile.py	/^    def read(self, size=None):$/;"	kind:member	l
 read	lib/python3.6/tempfile.py	/^    def read(self, *args):$/;"	kind:member	line:737
 read_or_stop	lib/python3.6/tokenize.py	/^    def read_or_stop():$/;"	kind:function	line:379
 readable	lib/python3.6/tarfile.py	/^    def readable(self):$/;"	kind:member	line:639
+reader	bin/rst2odt.py	/^reader = Reader()$/;"	kind:variable	line:27
 readinto	lib/python3.6/tarfile.py	/^    def readinto(self, b):$/;"	kind:member	line:700
 readline	lib/python3.6/codecs.py	/^    def readline(self, size=None):$/;"	kind:member	line:700
 readline	lib/python3.6/codecs.py	/^    def readline(self, size=None):$/;"	kind:member	line:806
@@ -4626,6 +4693,17 @@ rot_13.py	lib/python3.6/encodings/rot_13.py	1;"	kind:file	line:1
 rpartition	lib/python3.6/collections/__init__.py	/^    def rpartition(self, sep):$/;"	kind:member	line:1226
 rshift	lib/python3.6/operator.py	/^def rshift(a, b):$/;"	kind:function	line:128
 rsplit	lib/python3.6/collections/__init__.py	/^    def rsplit(self, sep=None, maxsplit=-1):$/;"	kind:member	line:1232
+rst2html.py	bin/rst2html.py	1;"	kind:file	line:1
+rst2html5.py	bin/rst2html5.py	1;"	kind:file	line:1
+rst2latex.py	bin/rst2latex.py	1;"	kind:file	line:1
+rst2man.py	bin/rst2man.py	1;"	kind:file	line:1
+rst2odt.py	bin/rst2odt.py	1;"	kind:file	line:1
+rst2odt_prepstyles.py	bin/rst2odt_prepstyles.py	1;"	kind:file	line:1
+rst2pseudoxml.py	bin/rst2pseudoxml.py	1;"	kind:file	line:1
+rst2s5.py	bin/rst2s5.py	1;"	kind:file	line:1
+rst2xetex.py	bin/rst2xetex.py	1;"	kind:file	line:1
+rst2xml.py	bin/rst2xml.py	1;"	kind:file	line:1
+rstpep2html.py	bin/rstpep2html.py	1;"	kind:file	line:1
 rstrip	lib/python3.6/collections/__init__.py	/^    def rstrip(self, chars=None):$/;"	kind:member	line:1228
 rv	lib/python3.6/copy.py	/^                            rv = reductor()$/;"	kind:variable	line:173
 rv	lib/python3.6/copy.py	/^                        rv = reductor(4)$/;"	kind:variable	line:169
@@ -4637,6 +4715,7 @@ samestat	lib/python3.6/genericpath.py	/^def samestat(s1, s2):$/;"	kind:function	
 sample	lib/python3.6/random.py	/^    def sample(self, population, k):$/;"	kind:member	line:282
 sample	lib/python3.6/random.py	/^sample = _inst.sample$/;"	kind:variable	line:750
 scan	lib/python3.6/re.py	/^    def scan(self, string):$/;"	kind:member	line:362
+script.py	script.py	1;"	kind:file	line:1
 scrypt	lib/python3.6/hashlib.py	/^    from _hashlib import scrypt$/;"	kind:namespace	line:234
 search	lib/python3.6/re.py	/^def search(pattern, string, flags=0):$/;"	kind:function	line:179
 search_function	lib/python3.6/encodings/__init__.py	/^def search_function(encoding):$/;"	kind:function	line:71
@@ -4701,6 +4780,7 @@ shift_jisx0213.py	lib/python3.6/encodings/shift_jisx0213.py	1;"	kind:file	line:1
 showwarning	lib/python3.6/warnings.py	/^def showwarning(message, category, filename, lineno, file=None, line=None):$/;"	kind:function	line:10
 shuffle	lib/python3.6/random.py	/^    def shuffle(self, x, random=None):$/;"	kind:member	line:260
 shuffle	lib/python3.6/random.py	/^shuffle = _inst.shuffle$/;"	kind:variable	line:751
+shutil	bin/rst2odt_prepstyles.py	/^import shutil$/;"	kind:namespace	line:19
 shutil	lib/python3.6/tarfile.py	/^import shutil$/;"	kind:namespace	line:45
 shutil.py	lib/python3.6/shutil.py	1;"	kind:file	line:1
 silence	lib/python3.6/warnings.py	/^    silence = [ImportWarning, PendingDeprecationWarning]$/;"	kind:variable	line:507
@@ -4792,7 +4872,10 @@ symlink_exception	lib/python3.6/tarfile.py	/^symlink_exception = (AttributeError
 symmetric_difference	lib/python3.6/_weakrefset.py	/^    def symmetric_difference(self, other):$/;"	kind:member	line:174
 symmetric_difference_update	lib/python3.6/_weakrefset.py	/^    def symmetric_difference_update(self, other):$/;"	kind:member	line:180
 sys	bin/activate_this.py	/^import sys$/;"	kind:namespace	line:13
+sys	bin/jp.py	/^import sys$/;"	kind:namespace	line:3
 sys	bin/python-config	/^import sys$/;"	kind:namespace	line:3
+sys	bin/rst2odt.py	/^import sys$/;"	kind:namespace	line:11
+sys	bin/rst2odt_prepstyles.py	/^import sys$/;"	kind:namespace	line:16
 sys	lib/python3.6/_bootlocale.py	/^import sys$/;"	kind:namespace	line:7
 sys	lib/python3.6/_collections_abc.py	/^import sys$/;"	kind:namespace	line:10
 sys	lib/python3.6/base64.py	/^    import sys, getopt$/;"	kind:namespace	line:565
@@ -5000,6 +5083,7 @@ writelines	lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:me
 writelines	lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:720
 writelines	lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:836
 writelines	lib/python3.6/tempfile.py	/^    def writelines(self, iterable):$/;"	kind:member	line:770
+writer	bin/rst2odt.py	/^writer = Writer()$/;"	kind:variable	line:26
 xmlcharrefreplace_errors	lib/python3.6/codecs.py	/^    xmlcharrefreplace_errors = None$/;"	kind:variable	line:1093
 xmlcharrefreplace_errors	lib/python3.6/codecs.py	/^    xmlcharrefreplace_errors = lookup_error("xmlcharrefreplace")$/;"	kind:variable	line:1085
 xor	lib/python3.6/enum.py	/^from operator import or_ as _or_, and_ as _and_, xor, neg$/;"	kind:namespace	line:4
@@ -5011,6 +5095,7 @@ y	lib/python3.6/copy.py	/^                y = copier(memo)$/;"	kind:variable	lin
 y	lib/python3.6/copy.py	/^            y = _deepcopy_atomic(x, memo)$/;"	kind:variable	line:157
 zfill	lib/python3.6/collections/__init__.py	/^    def zfill(self, width): return self.__class__(self.data.zfill(width))$/;"	kind:member	line:1243
 zip_iterator	lib/python3.6/_collections_abc.py	/^zip_iterator = type(iter(zip()))$/;"	kind:variable	line:49
+zipfile	bin/rst2odt_prepstyles.py	/^import zipfile$/;"	kind:namespace	line:17
 zipfile	lib/python3.6/shutil.py	/^        import zipfile$/;"	kind:namespace	line:870
 zipfile	lib/python3.6/shutil.py	/^    import zipfile$/;"	kind:namespace	line:664
 zlib	lib/python3.6/encodings/zlib_codec.py	/^import zlib # this codec needs the optional zlib module !$/;"	kind:namespace	line:9
