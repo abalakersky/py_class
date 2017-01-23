@@ -1,8 +1,10 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "python.pythonPath": "/Users/abalakersky/Development/testing/class/bin/python",
-    "python.autoComplete.extraPaths": [
-        "/Users/abalakersky/Development/testing/class/lib/python3.6",
-        "/Users/abalakersky/Development/testing/class/lib/python3.6/site-packages"
-        ]
+"terminal.integrated.shellArgs.osx": ["-l"],
+// Python Configuration
+"python.pythonPath": "/Users/abalakersky/Development/testing/class/bin/python",
+"python.autoComplete.extraPaths": [
+    "/Users/abalakersky/Development/testing/class/lib/python3.6",
+    "/Users/abalakersky/Development/testing/class/lib/python3.6/site-packages"
+    ]
 }
