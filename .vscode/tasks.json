@@ -1,0 +1,7 @@
+{
+    "version": "0.1.0",
+    "command": "/Users/abalakersky/Development/testing/class/bin/python",
+    "isShellCommand": true,
+    "args": ["${fileBasename}"],
+    "showOutput": "always"
+}

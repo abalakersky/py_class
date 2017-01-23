@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+                "name": "Launch",
+                "type": "python",
+                "request": "launch",
+                "stopOnEntry": false,
+                "program": "${workspaceRoot}/.vscode/HelloWorld.py",
+                "pythonPath": "/Users/abalakersky/Development/testing/class/bin/pytho",
+                "debugOptions": [
+                    "WaitOnAbnormalExit",
+                    "WaitOnNormalExit",
+                    "RedirectOutput"
+                ]  
+        }
+    ]
+}
