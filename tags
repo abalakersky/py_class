@@ -2490,6 +2490,8 @@ bz2_encode	lib/python3.6/encodings/bz2_codec.py	/^def bz2_encode(input, errors='
 bz2open	lib/python3.6/tarfile.py	/^    def bz2open(cls, name, mode="r", fileobj=None, compresslevel=9, **kwargs):$/;"	kind:member	line:1649
 c2f	c2f.py	/^def c2f(celsius):$/;"	kind:function	line:1
 c2f.py	c2f.py	1;"	kind:file	line:1
+c2f_list.py	c2f_list.py	1;"	kind:file	line:1
+c_to_f	c2f_list.py	/^def c_to_f(c):$/;"	kind:function	line:3
 cache	lib/python3.6/linecache.py	/^cache = {}$/;"	kind:variable	line:27
 cache_clear	lib/python3.6/functools.py	/^    def cache_clear():$/;"	kind:function	line:586
 cache_from_source	lib/python3.6/imp.py	/^def cache_from_source(path, debug_override=None):$/;"	kind:function	line:72
@@ -3712,6 +3714,7 @@ extsep	lib/python3.6/posixpath.py	/^extsep = '.'$/;"	kind:variable	line:32
 factory	lib/python3.6/importlib/util.py	/^    def factory(cls, loader):$/;"	kind:member	line:264
 fdopen	lib/python3.6/os.py	/^def fdopen(fd, *args, **kwargs):$/;"	kind:function	line:1011
 file	lib/python3.6/tempfile.py	/^    file = None  # Set here since __del__ checks it$/;"	kind:variable	line:421
+file.py	file.py	1;"	kind:file	line:1
 file_encoding	lib/python3.6/codecs.py	/^    file_encoding = 'unknown'$/;"	kind:variable	line:770
 filemode	lib/python3.6/stat.py	/^def filemode(mode):$/;"	kind:function	line:139
 filemode	lib/python3.6/tarfile.py	/^def filemode(mode):$/;"	kind:function	line:256
@@ -4940,6 +4943,7 @@ tell	lib/python3.6/tarfile.py	/^    def tell(self):$/;"	kind:member	line:502
 tell	lib/python3.6/tarfile.py	/^    def tell(self):$/;"	kind:member	line:648
 tell	lib/python3.6/tempfile.py	/^    def tell(self):$/;"	kind:member	line:753
 tempdir	lib/python3.6/tempfile.py	/^tempdir = None$/;"	kind:variable	line:287
+temperatures	c2f_list.py	/^temperatures=[10,-20,-289,100]$/;"	kind:variable	line:1
 tempfile.py	lib/python3.6/tempfile.py	1;"	kind:file	line:1
 template	lib/python3.6/re.py	/^def template(pattern, flags=0):$/;"	kind:function	line:240
 template	lib/python3.6/tempfile.py	/^template = "tmp"$/;"	kind:variable	line:71
