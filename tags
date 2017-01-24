@@ -2488,6 +2488,8 @@ bz2_codec.py	lib/python3.6/encodings/bz2_codec.py	1;"	kind:file	line:1
 bz2_decode	lib/python3.6/encodings/bz2_codec.py	/^def bz2_decode(input, errors='strict'):$/;"	kind:function	line:19
 bz2_encode	lib/python3.6/encodings/bz2_codec.py	/^def bz2_encode(input, errors='strict'):$/;"	kind:function	line:15
 bz2open	lib/python3.6/tarfile.py	/^    def bz2open(cls, name, mode="r", fileobj=None, compresslevel=9, **kwargs):$/;"	kind:member	line:1649
+c2f	c2f.py	/^def c2f(celsius):$/;"	kind:function	line:1
+c2f.py	c2f.py	1;"	kind:file	line:1
 cache	lib/python3.6/linecache.py	/^cache = {}$/;"	kind:variable	line:27
 cache_clear	lib/python3.6/functools.py	/^    def cache_clear():$/;"	kind:function	line:586
 cache_from_source	lib/python3.6/imp.py	/^def cache_from_source(path, debug_override=None):$/;"	kind:function	line:72
@@ -3320,6 +3322,8 @@ dots	lib/python3.6/encodings/idna.py	/^dots = re.compile("[\\u002E\\u3002\\uFF0E
 dump	lib/python3.6/sre_constants.py	/^    def dump(f, d, prefix):$/;"	kind:function	line:181
 dump	lib/python3.6/sre_parse.py	/^    def dump(self, level=0):$/;"	kind:member	line:117
 elements	lib/python3.6/collections/__init__.py	/^    def elements(self):$/;"	kind:member	line:554
+email	for_twolists.py	/^email=['gmail','hotmail','yahoo']$/;"	kind:variable	line:2
+emails	forloop.py	/^emails=['me@gmail.com', 'you@hotmail.com', 'they@yahoo.com']$/;"	kind:variable	line:1
 encode	lib/python3.6/base64.py	/^def encode(input, output):$/;"	kind:function	line:491
 encode	lib/python3.6/codecs.py	/^    def encode(self, input, errors='strict'):$/;"	kind:member	line:137
 encode	lib/python3.6/codecs.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:196
@@ -3755,7 +3759,9 @@ fnmatch	lib/python3.6/fnmatch.py	/^def fnmatch(name, pat):$/;"	kind:function	lin
 fnmatch	lib/python3.6/shutil.py	/^import fnmatch$/;"	kind:namespace	line:10
 fnmatch.py	lib/python3.6/fnmatch.py	1;"	kind:file	line:1
 fnmatchcase	lib/python3.6/fnmatch.py	/^def fnmatchcase(name, pat):$/;"	kind:function	line:64
+for_twolists.py	for_twolists.py	1;"	kind:file	line:1
 force_global_eggs_after_local_site_packages	lib/python3.6/site.py	/^def force_global_eggs_after_local_site_packages():$/;"	kind:function	line:627
+forloop.py	forloop.py	1;"	kind:file	line:1
 format	lib/python3.6/collections/__init__.py	/^    def format(self, *args, **kwds):$/;"	kind:member	line:1187
 format	lib/python3.6/locale.py	/^def format(percent, value, grouping=False, monetary=False, *additional):$/;"	kind:function	line:183
 format	lib/python3.6/tarfile.py	/^    format = DEFAULT_FORMAT     # The format to use when creating an archive.$/;"	kind:variable	line:1394
@@ -4225,6 +4231,7 @@ length_hint	lib/python3.6/operator.py	/^def length_hint(obj, default=0):$/;"	kin
 level	lib/python3.6/importlib/_bootstrap.py	/^        raise ValueError('attempted relative import beyond top-level package')$/;"	kind:namespace	line:847
 lexists	lib/python3.6/ntpath.py	/^def lexists(path):$/;"	kind:function	line:259
 lexists	lib/python3.6/posixpath.py	/^def lexists(path):$/;"	kind:function	line:176
+li	test1.py	/^li = ['Today', 'Tomorrow', 3]$/;"	kind:variable	line:4
 linecache	lib/python3.6/warnings.py	/^            import linecache$/;"	kind:namespace	line:42
 linecache	lib/python3.6/warnings.py	/^    import linecache$/;"	kind:namespace	line:361
 linecache.py	lib/python3.6/linecache.py	1;"	kind:file	line:1
@@ -4374,6 +4381,8 @@ most_common	lib/python3.6/collections/__init__.py	/^    def most_common(self, n=
 move	lib/python3.6/shutil.py	/^def move(src, dst, copy_function=copy2):$/;"	kind:function	line:500
 move_to_end	lib/python3.6/collections/__init__.py	/^    def move_to_end(self, key, last=True):$/;"	kind:member	line:182
 mul	lib/python3.6/operator.py	/^def mul(a, b):$/;"	kind:function	line:104
+mypass	whileloop.py	/^    mypass = input("Enter Password: ")$/;"	kind:variable	line:4
+mypass	whileloop.py	/^mypass = ''$/;"	kind:variable	line:1
 name	lib/python3.6/enum.py	/^    def name(self):$/;"	kind:member	line:593
 name	lib/python3.6/hmac.py	/^    def name(self):$/;"	kind:member	line:87
 name	lib/python3.6/os.py	/^    name = 'nt'$/;"	kind:variable	line:69
@@ -4383,6 +4392,7 @@ namedtuple	lib/python3.6/functools.py	/^from collections import namedtuple$/;"	k
 nameprep	lib/python3.6/encodings/idna.py	/^def nameprep(label):$/;"	kind:function	line:14
 namereplace_errors	lib/python3.6/codecs.py	/^    namereplace_errors = None$/;"	kind:variable	line:1095
 namereplace_errors	lib/python3.6/codecs.py	/^    namereplace_errors = lookup_error("namereplace")$/;"	kind:variable	line:1087
+names	for_twolists.py	/^names=['john','james','jack']$/;"	kind:variable	line:1
 ne	lib/python3.6/operator.py	/^def ne(a, b):$/;"	kind:function	line:39
 needs	lib/python3.6/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
 needs	lib/python3.6/encodings/zlib_codec.py	/^import zlib # this codec needs the optional zlib module !$/;"	kind:namespace	line:9
@@ -4716,6 +4726,7 @@ sample	lib/python3.6/random.py	/^    def sample(self, population, k):$/;"	kind:m
 sample	lib/python3.6/random.py	/^sample = _inst.sample$/;"	kind:variable	line:750
 scan	lib/python3.6/re.py	/^    def scan(self, string):$/;"	kind:member	line:362
 script.py	script.py	1;"	kind:file	line:1
+script2.py	script2.py	1;"	kind:file	line:1
 scrypt	lib/python3.6/hashlib.py	/^    from _hashlib import scrypt$/;"	kind:namespace	line:234
 search	lib/python3.6/re.py	/^def search(pattern, string, flags=0):$/;"	kind:function	line:179
 search_function	lib/python3.6/encodings/__init__.py	/^def search_function(encoding):$/;"	kind:function	line:71
@@ -5024,6 +5035,7 @@ utime	lib/python3.6/tarfile.py	/^    def utime(self, tarinfo, targetpath):$/;"	k
 uu_codec.py	lib/python3.6/encodings/uu_codec.py	1;"	kind:file	line:1
 uu_decode	lib/python3.6/encodings/uu_codec.py	/^def uu_decode(input, errors='strict'):$/;"	kind:function	line:33
 uu_encode	lib/python3.6/encodings/uu_codec.py	/^def uu_encode(input, errors='strict', filename='<data>', mode=0o666):$/;"	kind:function	line:16
+v	script2.py	/^v=3$/;"	kind:variable	line:1
 valid_opts	bin/python-config	/^valid_opts = ['prefix', 'exec-prefix', 'includes', 'libs', 'cflags',$/;"	kind:variable	line:7
 valid_opts	lib/python3.6/config-3.6m-darwin/python-config.py	/^valid_opts = ['prefix', 'exec-prefix', 'includes', 'libs', 'cflags',$/;"	kind:variable	line:11
 value	lib/python3.6/enum.py	/^    def value(self):$/;"	kind:member	line:598
@@ -5062,6 +5074,7 @@ weakref.py	lib/python3.6/weakref.py	1;"	kind:file	line:1
 weibullvariate	lib/python3.6/random.py	/^    def weibullvariate(self, alpha, beta):$/;"	kind:member	line:650
 weibullvariate	lib/python3.6/random.py	/^weibullvariate = _inst.weibullvariate$/;"	kind:variable	line:761
 which	lib/python3.6/shutil.py	/^def which(cmd, mode=os.F_OK | os.X_OK, path=None):$/;"	kind:function	line:1087
+whileloop.py	whileloop.py	1;"	kind:file	line:1
 windows_locale	lib/python3.6/locale.py	/^windows_locale = {$/;"	kind:variable	line:1399
 with	lib/python3.6/importlib/_bootstrap.py	/^            raise ImportError('attempted relative import with no known parent '$/;"	kind:namespace	line:918
 with_statement	lib/python3.6/__future__.py	/^with_statement = _Feature((2, 5, 0, "alpha", 1),$/;"	kind:variable	line:122
