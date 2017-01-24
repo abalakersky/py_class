@@ -2491,6 +2491,7 @@ bz2open	lib/python3.6/tarfile.py	/^    def bz2open(cls, name, mode="r", fileobj=
 c2f	c2f.py	/^def c2f(celsius):$/;"	kind:function	line:1
 c2f.py	c2f.py	1;"	kind:file	line:1
 c2f_list.py	c2f_list.py	1;"	kind:file	line:1
+c2f_write.py	c2f_write.py	1;"	kind:file	line:1
 c_to_f	c2f_list.py	/^def c_to_f(c):$/;"	kind:function	line:3
 cache	lib/python3.6/linecache.py	/^cache = {}$/;"	kind:variable	line:27
 cache_clear	lib/python3.6/functools.py	/^    def cache_clear():$/;"	kind:function	line:586
@@ -2831,8 +2832,14 @@ compile	lib/python3.6/sre_compile.py	/^def compile(p, flags=0):$/;"	kind:functio
 complete	lib/python3.6/rlcompleter.py	/^    def complete(self, text, state):$/;"	kind:member	line:66
 component	lib/python3.6/importlib/__init__.py	/^import _imp  # Just the builtin component, NOT the full Python module$/;"	kind:namespace	line:12
 concat	lib/python3.6/operator.py	/^def concat(a, b):$/;"	kind:function	line:146
+concat_files.py	concat_files.py	1;"	kind:file	line:1
 constructor	lib/python3.6/copyreg.py	/^def constructor(object):$/;"	kind:function	line:22
 contains	lib/python3.6/operator.py	/^def contains(a, b):$/;"	kind:function	line:153
+content	file_read.py	/^content = file.read() # read contents of the file into content var$/;"	kind:variable	line:3
+content	file_read.py	/^content = file.readlines() # read contents using readlines$/;"	kind:variable	line:6
+content	file_read.py	/^content = file.readlines() # readlines again$/;"	kind:variable	line:9
+content	file_read.py	/^content=[i.rstrip("\\n") for i in content] # strip \\n from each item in place.$/;"	kind:variable	line:11
+content	file_with.py	/^    content=file.read()$/;"	kind:variable	line:3
 contextmanager	lib/python3.6/importlib/util.py	/^from contextlib import contextmanager$/;"	kind:namespace	line:13
 cookie_re	lib/python3.6/tokenize.py	/^cookie_re = re.compile(r'^[ \\t\\f]*#.*?coding[:=][ \\t]*([-\\w.]+)', re.ASCII)$/;"	kind:variable	line:37
 copier	lib/python3.6/copy.py	/^            copier = getattr(x, "__deepcopy__", None)$/;"	kind:variable	line:159
@@ -2913,6 +2920,8 @@ cr_frame	lib/python3.6/types.py	/^    cr_frame = gi_frame$/;"	kind:variable	line
 cr_running	lib/python3.6/types.py	/^    cr_running = gi_running$/;"	kind:variable	line:201
 create_dynamic	lib/python3.6/imp.py	/^    create_dynamic = None$/;"	kind:variable	line:17
 create_dynamic	lib/python3.6/imp.py	/^    from _imp import create_dynamic$/;"	kind:namespace	line:14
+create_file	concat_files.py	/^def create_file():$/;"	kind:function	line:7
+create_file	filename-date.py	/^def create_file():$/;"	kind:function	line:5
 create_gnu_header	lib/python3.6/tarfile.py	/^    def create_gnu_header(self, info, encoding, errors):$/;"	kind:member	line:826
 create_module	lib/python3.6/importlib/_bootstrap.py	/^    def create_module(cls, spec):$/;"	kind:member	line:788
 create_module	lib/python3.6/importlib/_bootstrap.py	/^    def create_module(self, spec):$/;"	kind:member	line:720
@@ -2930,6 +2939,8 @@ curdir	lib/python3.6/posixpath.py	/^curdir = '.'$/;"	kind:variable	line:30
 currency	lib/python3.6/locale.py	/^def currency(val, symbol=True, grouping=False, international=False):$/;"	kind:function	line:254
 currency_converter	script.py	/^def currency_converter(rate, euros):$/;"	kind:function	line:2
 data_encoding	lib/python3.6/codecs.py	/^    data_encoding = 'unknown'$/;"	kind:variable	line:769
+datetime	concat_files.py	/^import datetime$/;"	kind:namespace	line:1
+datetime	filename-date.py	/^import datetime$/;"	kind:namespace	line:1
 debug	lib/python3.6/tarfile.py	/^    debug = 0                   # May be set from 0 (no msgs) to 3 (all msgs)$/;"	kind:variable	line:1382
 decode	lib/python3.6/base64.py	/^def decode(input, output):$/;"	kind:function	line:506
 decode	lib/python3.6/codecs.py	/^    def decode(self, input, errors='strict'):$/;"	kind:member	line:156
@@ -3713,11 +3724,21 @@ extsep	lib/python3.6/os.py	/^from os.path import (curdir, pardir, sep, pathsep, 
 extsep	lib/python3.6/posixpath.py	/^extsep = '.'$/;"	kind:variable	line:32
 factory	lib/python3.6/importlib/util.py	/^    def factory(cls, loader):$/;"	kind:member	line:264
 fdopen	lib/python3.6/os.py	/^def fdopen(fd, *args, **kwargs):$/;"	kind:function	line:1011
+file	file_append.py	/^file=open("example_w.txt",'a')$/;"	kind:variable	line:1
+file	file_read.py	/^file = open("example.txt",'r') #Open file in read mode$/;"	kind:variable	line:1
+file	file_write.py	/^file=open("example_w.txt",'w')$/;"	kind:variable	line:1
 file	lib/python3.6/tempfile.py	/^    file = None  # Set here since __del__ checks it$/;"	kind:variable	line:421
-file.py	file.py	1;"	kind:file	line:1
+file_append.py	file_append.py	1;"	kind:file	line:1
 file_encoding	lib/python3.6/codecs.py	/^    file_encoding = 'unknown'$/;"	kind:variable	line:770
+file_read.py	file_read.py	1;"	kind:file	line:1
+file_with.py	file_with.py	1;"	kind:file	line:1
+file_write.py	file_write.py	1;"	kind:file	line:1
+filelist	concat_files.py	/^filelist = glob2.glob('file*.txt') $/;"	kind:variable	line:4
 filemode	lib/python3.6/stat.py	/^def filemode(mode):$/;"	kind:function	line:139
 filemode	lib/python3.6/tarfile.py	/^def filemode(mode):$/;"	kind:function	line:256
+filename	concat_files.py	/^filename = datetime.datetime.now()$/;"	kind:variable	line:5
+filename	filename-date.py	/^filename = datetime.datetime.now()$/;"	kind:variable	line:3
+filename-date.py	filename-date.py	1;"	kind:file	line:1
 fileno	lib/python3.6/tempfile.py	/^    def fileno(self):$/;"	kind:member	line:704
 fileobject	lib/python3.6/tarfile.py	/^    fileobject = ExFileObject   # The file-object for extractfile().$/;"	kind:variable	line:1402
 filter	lib/python3.6/fnmatch.py	/^def filter(names, pat):$/;"	kind:function	line:48
@@ -4042,6 +4063,7 @@ gi_code	lib/python3.6/types.py	/^    def gi_code(self):$/;"	kind:member	line:188
 gi_frame	lib/python3.6/types.py	/^    def gi_frame(self):$/;"	kind:member	line:191
 gi_running	lib/python3.6/types.py	/^    def gi_running(self):$/;"	kind:member	line:194
 gi_yieldfrom	lib/python3.6/types.py	/^    def gi_yieldfrom(self):$/;"	kind:member	line:197
+glob2	concat_files.py	/^import glob2$/;"	kind:namespace	line:2
 global_matches	lib/python3.6/rlcompleter.py	/^    def global_matches(self, text):$/;"	kind:member	line:102
 group	lib/python3.6/tokenize.py	/^def group(*choices): return '(' + '|'.join(choices) + ')'$/;"	kind:function	line:112
 groups	lib/python3.6/sre_parse.py	/^    def groups(self):$/;"	kind:member	line:82
@@ -4944,6 +4966,7 @@ tell	lib/python3.6/tarfile.py	/^    def tell(self):$/;"	kind:member	line:648
 tell	lib/python3.6/tempfile.py	/^    def tell(self):$/;"	kind:member	line:753
 tempdir	lib/python3.6/tempfile.py	/^tempdir = None$/;"	kind:variable	line:287
 temperatures	c2f_list.py	/^temperatures=[10,-20,-289,100]$/;"	kind:variable	line:1
+temperatures	c2f_write.py	/^temperatures=[10,-20,-289,100]$/;"	kind:variable	line:1
 tempfile.py	lib/python3.6/tempfile.py	1;"	kind:file	line:1
 template	lib/python3.6/re.py	/^def template(pattern, flags=0):$/;"	kind:function	line:240
 template	lib/python3.6/tempfile.py	/^template = "tmp"$/;"	kind:variable	line:71
@@ -5101,6 +5124,7 @@ writelines	lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:me
 writelines	lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:836
 writelines	lib/python3.6/tempfile.py	/^    def writelines(self, iterable):$/;"	kind:member	line:770
 writer	bin/rst2odt.py	/^writer = Writer()$/;"	kind:variable	line:26
+writer	c2f_write.py	/^def writer(temperatures):$/;"	kind:function	line:4
 xmlcharrefreplace_errors	lib/python3.6/codecs.py	/^    xmlcharrefreplace_errors = None$/;"	kind:variable	line:1093
 xmlcharrefreplace_errors	lib/python3.6/codecs.py	/^    xmlcharrefreplace_errors = lookup_error("xmlcharrefreplace")$/;"	kind:variable	line:1085
 xor	lib/python3.6/enum.py	/^from operator import or_ as _or_, and_ as _and_, xor, neg$/;"	kind:namespace	line:4
