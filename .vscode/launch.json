@@ -7,7 +7,7 @@
                 "request": "launch",
                 "stopOnEntry": false,
                 "program": "${workspaceRoot}/.vscode/HelloWorld.py",
-                "pythonPath": "/Users/abalakersky/Development/testing/class/bin/pytho",
+                "pythonPath": "/Users/abalakersky/Development/testing/class/bin/python",
                 "debugOptions": [
                     "WaitOnAbnormalExit",
                     "WaitOnNormalExit",

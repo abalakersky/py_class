@@ -8,5 +8,6 @@
     "/Users/abalakersky/Development/testing/class/lib/python3.6/site-packages"
     ]
 ,
-"sync.workspaceSync": true
+"sync.workspaceSync": true,
+"python.workspaceSymbols.tagFilePath": "${workspaceRoot}/tags"
 }
