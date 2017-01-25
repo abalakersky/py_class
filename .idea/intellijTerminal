@@ -1,0 +1,2 @@
+source ~/.bash_profile
+source ~/.virtualenvs/3.6/bin/activate
