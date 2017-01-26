@@ -5,9 +5,9 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 HelloWorld.py	HelloWorld.py	1;"	kind:file	line:1
-a	HelloWorld.py	/^a = np.array([1,2,3,4])$/;"	kind:variable	line:8
+a	HelloWorld.py	/^a = np.array([1, 2, 3, 4])$/;"	kind:variable	line:9
 another.py	another.py	1;"	kind:file	line:1
-b	HelloWorld.py	/^b = np.array([[ 1, 2, 3, 9], $/;"	kind:variable	line:11
+b	HelloWorld.py	/^b = np.array([[ 1, 2, 3, 9], $/;"	kind:variable	line:12
 boto3	test.py	/^import boto3$/;"	kind:namespace	line:2
 bucket	test.py	/^bucket = s3.create_bucket('alex.balakersky.test2')$/;"	kind:variable	line:18
 c2f	c2f.py	/^def c2f(celsius):$/;"	kind:function	line:1

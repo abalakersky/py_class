@@ -1,2 +1,2 @@
-source /usr/local/bin/virtualenvwrapper.sh
-source ~/.virtualenvs/3.6/bin/activate
+source /Users/abalakersky/.bash_profile
+workon 3.6

@@ -6,5 +6,35 @@
         "/Users/abalakersky/.virtualenvs/3.6/lib/python3.6/site-packages"
     ]
 ,
-"python.workspaceSymbols.tagFilePath": "${workspaceRoot}/tags"
+"python.workspaceSymbols.tagFilePath": "${workspaceRoot}/tags",
+"code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "/Users/abalakersky/.virtualenvs/3.6/bin/python",
+    "perl": "perl",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript"
+},
+"code-runner.fileDirectoryAsCwd": true,
+"terminal.integrated.shellArgs.osx": ["-l"]
 }
