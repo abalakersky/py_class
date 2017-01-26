@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "python.pythonPath": "/Users/abalakersky/.virtualenvs/3.6/bin/python",
+    "python.autoComplete.extraPaths": [
+        "/Users/abalakersky/.virtualenvs/3.6/lib/python3.6",
+        "/Users/abalakersky/.virtualenvs/3.6/lib/python3.6/site-packages"
+    ]
+,
+"python.workspaceSymbols.tagFilePath": "${workspaceRoot}/tags"
+}
