@@ -35,6 +35,5 @@
     "r": "Rscript",
     "applescript": "osascript"
 },
-"code-runner.fileDirectoryAsCwd": true,
-"terminal.integrated.shellArgs.osx": ["-l"]
+"code-runner.fileDirectoryAsCwd": true
 }

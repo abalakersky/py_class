@@ -26,6 +26,7 @@ create_file	filename-date.py	/^def create_file():$/;"	kind:function	line:5
 currency_converter	script.py	/^def currency_converter(rate, euros):$/;"	kind:function	line:2
 datetime	concat_files.py	/^import datetime$/;"	kind:namespace	line:3
 datetime	filename-date.py	/^import datetime$/;"	kind:namespace	line:1
+datetime	json_string.py	/^import datetime$/;"	kind:namespace	line:2
 email	for_twolists.py	/^email=['gmail','hotmail','yahoo']$/;"	kind:variable	line:2
 emails	forloop.py	/^emails=['me@gmail.com', 'you@hotmail.com', 'they@yahoo.com']$/;"	kind:variable	line:1
 file	file_append.py	/^file=open("example_w.txt",'a')$/;"	kind:variable	line:1
@@ -42,6 +43,9 @@ filename-date.py	filename-date.py	1;"	kind:file	line:1
 for_twolists.py	for_twolists.py	1;"	kind:file	line:1
 forloop.py	forloop.py	1;"	kind:file	line:1
 glob2	concat_files.py	/^import glob2$/;"	kind:namespace	line:2
+item	json_string.py	/^item = json.dumps(json.loads(json.dumps("sting": {"date":datetime.datetime.now().isoformat(),"ec2instanceid":ids})))$/;"	kind:variable	line:7
+json	json_string.py	/^import json$/;"	kind:namespace	line:1
+json_string.py	json_string.py	1;"	kind:file	line:1
 li	test1.py	/^li = ['Today', 'Tomorrow', 3]$/;"	kind:variable	line:4
 mypass	whileloop.py	/^    mypass = input("Enter Password: ")$/;"	kind:variable	line:4
 mypass	whileloop.py	/^mypass = ''$/;"	kind:variable	line:1
