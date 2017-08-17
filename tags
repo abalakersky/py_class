@@ -4,10 +4,12 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+AMI.py	AMI.py	1;"	kind:file	line:1
 HelloWorld.py	HelloWorld.py	1;"	kind:file	line:1
 a	HelloWorld.py	/^a = np.array([1, 2, 3, 4])$/;"	kind:variable	line:9
 another.py	another.py	1;"	kind:file	line:1
 b	HelloWorld.py	/^b = np.array([[ 1, 2, 3, 9], $/;"	kind:variable	line:12
+boto3	AMI.py	/^import boto3$/;"	kind:namespace	line:14
 boto3	test.py	/^import boto3$/;"	kind:namespace	line:2
 bucket	test.py	/^bucket = s3.create_bucket('alex.balakersky.test2')$/;"	kind:variable	line:18
 c2f	c2f.py	/^def c2f(celsius):$/;"	kind:function	line:1
@@ -15,7 +17,9 @@ c2f.py	c2f.py	1;"	kind:file	line:1
 c2f_list.py	c2f_list.py	1;"	kind:file	line:1
 c2f_write.py	c2f_write.py	1;"	kind:file	line:1
 c_to_f	c2f_list.py	/^def c_to_f(c):$/;"	kind:function	line:3
+collections	AMI.py	/^import collections$/;"	kind:namespace	line:15
 concat_files.py	concat_files.py	1;"	kind:file	line:1
+consonants	name_creator.py	/^consonants = 'bcdfghjklmnpqrstvwxz'$/;"	kind:variable	line:8
 content	file_read.py	/^content = file.read() # read contents of the file into content var$/;"	kind:variable	line:3
 content	file_read.py	/^content = file.readlines() # read contents using readlines$/;"	kind:variable	line:6
 content	file_read.py	/^content = file.readlines() # readlines again$/;"	kind:variable	line:9
@@ -24,9 +28,11 @@ content	file_with.py	/^    content=file.read()$/;"	kind:variable	line:3
 create_file	concat_files.py	/^def create_file():$/;"	kind:function	line:8
 create_file	filename-date.py	/^def create_file():$/;"	kind:function	line:5
 currency_converter	script.py	/^def currency_converter(rate, euros):$/;"	kind:function	line:2
+datetime	AMI.py	/^import datetime$/;"	kind:namespace	line:16
 datetime	concat_files.py	/^import datetime$/;"	kind:namespace	line:3
 datetime	filename-date.py	/^import datetime$/;"	kind:namespace	line:1
 datetime	json_string.py	/^import datetime$/;"	kind:namespace	line:2
+ec	AMI.py	/^ec = boto3.client('ec2')$/;"	kind:variable	line:20
 email	for_twolists.py	/^email=['gmail','hotmail','yahoo']$/;"	kind:variable	line:2
 emails	forloop.py	/^emails=['me@gmail.com', 'you@hotmail.com', 'they@yahoo.com']$/;"	kind:variable	line:1
 file	file_append.py	/^file=open("example_w.txt",'a')$/;"	kind:variable	line:1
@@ -42,18 +48,28 @@ filename	filename-date.py	/^filename = datetime.datetime.now()$/;"	kind:variable
 filename-date.py	filename-date.py	1;"	kind:file	line:1
 for_twolists.py	for_twolists.py	1;"	kind:file	line:1
 forloop.py	forloop.py	1;"	kind:file	line:1
+generator	name_creator.py	/^def generator():$/;"	kind:function	line:10
 glob2	concat_files.py	/^import glob2$/;"	kind:namespace	line:2
+input1	name_creator.py	/^input1 = input("What letter would you like? Enter 'v' for vowels, 'c' for consonants, 'l' for any letter: ")$/;"	kind:variable	line:3
+input2	name_creator.py	/^input2 = input("What letter would you like? Enter 'v' for vowels, 'c' for consonants, 'l' for any letter: ")$/;"	kind:variable	line:4
+input3	name_creator.py	/^input3 = input("What letter would you like? Enter 'v' for vowels, 'c' for consonants, 'l' for any letter: ")$/;"	kind:variable	line:5
 item	json_string.py	/^item = json.dumps(json.loads(json.dumps("sting": {"date":datetime.datetime.now().isoformat(),"ec2instanceid":ids})))$/;"	kind:variable	line:7
 json	json_string.py	/^import json$/;"	kind:namespace	line:1
 json_string.py	json_string.py	1;"	kind:file	line:1
+lambda_handler	AMI.py	/^def lambda_handler(event, context):$/;"	kind:function	line:23
 li	test1.py	/^li = ['Today', 'Tomorrow', 3]$/;"	kind:variable	line:4
 mypass	whileloop.py	/^    mypass = input("Enter Password: ")$/;"	kind:variable	line:4
 mypass	whileloop.py	/^mypass = ''$/;"	kind:variable	line:1
+name_creator.py	name_creator.py	1;"	kind:file	line:1
 names	for_twolists.py	/^names=['john','james','jack']$/;"	kind:variable	line:1
 np	HelloWorld.py	/^import numpy as np$/;"	kind:namespace	line:5
+pprint	AMI.py	/^import pprint$/;"	kind:namespace	line:18
+random	name_creator.py	/^import random, string$/;"	kind:namespace	line:1
 s3	test.py	/^s3 = boto3.client('s3')$/;"	kind:variable	line:16
 script.py	script.py	1;"	kind:file	line:1
 script2.py	script2.py	1;"	kind:file	line:1
+string	name_creator.py	/^import random, string$/;"	kind:namespace	line:1
+sys	AMI.py	/^import sys$/;"	kind:namespace	line:17
 sys	another.py	/^import sys$/;"	kind:namespace	line:1
 temperatures	c2f_list.py	/^temperatures=[10,-20,-289,100]$/;"	kind:variable	line:1
 temperatures	c2f_write.py	/^temperatures=[10,-20,-289,100]$/;"	kind:variable	line:1
@@ -61,5 +77,6 @@ test.py	test.py	1;"	kind:file	line:1
 test1.py	test1.py	1;"	kind:file	line:1
 v	script2.py	/^v=3$/;"	kind:variable	line:1
 version	another.py	/^version = sys.version_info$/;"	kind:variable	line:3
+vowels	name_creator.py	/^vowels = 'aeiouy'$/;"	kind:variable	line:7
 whileloop.py	whileloop.py	1;"	kind:file	line:1
 writer	c2f_write.py	/^def writer(temperatures):$/;"	kind:function	line:4

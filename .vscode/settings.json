@@ -35,5 +35,6 @@
     "r": "Rscript",
     "applescript": "osascript"
 },
-"code-runner.fileDirectoryAsCwd": true
+"code-runner.fileDirectoryAsCwd": true,
+"terminal.external.osxExec": "iTerm.app"
 }
